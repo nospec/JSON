@@ -1,0 +1,35 @@
+{
+    "id": 291,
+    "name": "TDL Alert Testing",
+    "priority": 2,
+    "levelStr": "All",
+    "devices": [
+      "*"
+    ],
+    "deviceGroups": [
+      "*"
+    ],
+    "datasource": "Alert Testing",
+    "instance": "*",
+    "datapoint": "*",
+    "escalationInterval": 30,
+    "escalatingChainId": 264,
+    "escalatingChain": {
+      "inAlerting": false,
+      "throttlingAlerts": 20,
+      "enableThrottling": false,
+      "name": "TDL Alert Testing",
+      "destination": [
+        {
+          "stages": "System.Object[]",
+          "type": "single"
+        }
+      ],
+      "description": "",
+      "ccdestination": [],
+      "id": 264,
+      "throttlingPeriod": 10
+    },
+    "suppressAlertClear": false,
+    "suppressAlertAckSdt": false
+  }
